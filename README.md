@@ -26,3 +26,20 @@ The platform is designed as an **NPM Workspace Monorepo**, maintaining a clean s
 
 ---
 
+## 🛠️ Tech Stack
+
+### Frontend (`/client`)
+* **React 18** (Vite + TypeScript)
+* **Tailwind CSS v4** (Modern utility classes including `oklch` dynamic colors)
+* **Zustand** (Global state management)
+* **React Router DOM**
+* **Lucide React** (Icons)
+* **html2canvas & jsPDF** (E-Ticket generation)
+
+### Backend (`/server`)
+* **Node.js + Express**
+* **Prisma ORM** (Powered by local SQLite for rapid MVP)
+* **JSON Web Token (JWT)**
+* **Multer** (Local file uploads for pictures and proofs)
+
+---
